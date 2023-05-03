@@ -10,30 +10,8 @@ Esse é o projeto do back-end que fornece uma API Python para cadastro de livros
 
 Siga as instruções abaixo para importar o arquivo `mvp-sprint-01-jefferson-torres.sql` no PostgreSQL usando diferentes ferramentas:
 
-- **Método 1: Usando a linha de comando**
-  * Abra o terminal ou prompt de comando.
-  * Navegue até o diretório onde o arquivo `mvp-sprint-01-jefferson-torres.sql` está localizado.
-  * Execute o seguinte comando, substituindo os valores conforme necessário:
-  * ```
-     psql -U seu_usuario -h endereco_do_servidor -d mvp-sprint-01-jefferson-torres -f mvp-sprint-01-jefferson-torres.sql
-     ```
-  
-
-- **Método 2: Utilizando o pgAdmin**
-  * Abra o pgAdmin e conecte-se ao servidor PostgreSQL.
-  * Crie um novo banco de dados chamado `mvp-sprint-01-jefferson-torres`.
-  * Clique com o botão direito do mouse no banco de dados e selecione "Query Tool".
-  * Na janela "Query Tool", clique no ícone "Open File" (ícone de pasta).
-  * Localize e abra o arquivo `mvp-sprint-01-jefferson-torres.sql`.
-  * Clique no ícone "Execute" (ícone de um raio) para executar o script e importar o arquivo de dump.
-
-- **Método 3: Utilizando o DBeaver**
-  * Abra o DBeaver e conecte-se ao servidor PostgreSQL.
-  * Crie um novo banco de dados chamado `mvp-sprint-01-jefferson-torres`.
-  * Clique com o botão direito do mouse no banco de dados e selecione "Open SQL Editor".
-  * Na janela "SQL Editor", clique no ícone "Open File" (ícone de pasta).
-  * Localize e abra o arquivo `mvp-sprint-01-jefferson-torres.sql`.
-  * Clique no ícone "Execute SQL script" (ícone de um triângulo verde) para executar o script e importar o arquivo de dump.
+* Crie a base de dados `mvp-sprint-01-jefferson-torres`.
+* Importe o arquivo `mvp-sprint-01-jefferson-torres.sql`.
 
 ### Configurando a conexão com o banco de dados
 Será necessário alterar dados de conexão com o banco de dados.
